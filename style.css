@@ -1,0 +1,100 @@
+body {
+    padding: 0 0.5em;
+    margin: 0;
+}
+header {
+    display: flex;
+    margin-bottom: 3em ;
+    width: 100%;
+}
+
+.header-title {
+    width: 30%;
+    margin: 2em 0 0 2em;
+}
+
+.avatar {
+    width: 70%;
+  display: inline-flex;
+  justify-content: flex-end;
+}
+
+h1 {
+    color: #04859D;
+    border-bottom: 1px grey solid;
+}
+
+h2 {
+    color: grey;
+}
+
+img {
+    border: 0.20em solid #04859D;
+    border-radius: 50%;
+    padding: 0.40em;
+    margin-right: 5%;
+    margin-top: 2em;
+}
+
+#contact {
+    background-color: #04859D;
+    padding: 0 2em 0 2em;
+    justify-content: center;
+}
+
+.contact-item {
+    margin: 1em 1em;
+}
+
+a {
+    color: black;
+    margin: 0.4em;
+    text-decoration: none;
+}
+
+section {
+    display: flex;
+}
+
+.title {
+    color: #04859D;
+    text-transform: capitalize;
+    margin: 0 2em 0 2em;
+    width: 20%;
+}
+
+.subtitle {
+    text-align: right;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: black;
+    font-size: 0.75em;
+}
+
+.subtitle h4 {
+    color: #04859D;
+}
+
+.text {
+    width: 80%;
+    color: grey;
+    border-top: 1px grey solid;
+    margin: 2em 0 2em 0 
+}
+
+.skills {
+    margin: 2em 0 2em 0;
+    padding-top: 2em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    color: grey;
+}
+
+footer {
+    padding: 1em 1em;
+    background-color: #04859D;
+}
